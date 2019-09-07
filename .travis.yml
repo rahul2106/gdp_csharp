@@ -1,0 +1,12 @@
+language: csharp
+solution: gdp_agg.sln
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+  
+mono: none
+dotnet: 2.2
+script:
+  - dotnet restore
+  - dotnet test gdp.tests
