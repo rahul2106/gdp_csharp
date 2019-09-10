@@ -16,7 +16,7 @@ namespace gdp_agg
         public static void aggGDP()
         {
 
-            string[] lines = File.ReadAllLines(@"..\..\..\..\data_datafile.csv");
+            string[] lines = File.ReadAllLines(@"../../../../data_datafile.csv");
             Hashtable ht = new Hashtable();
             ht.Add("South Africa", "Africa");
             ht.Add("India", "Asia");

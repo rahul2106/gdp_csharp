@@ -11,15 +11,15 @@ namespace gdp.tests
         [Fact]
         public static void isPresent()
         {
-            string path = @"..\..\..\..\data_datafile.csv";
+            string path = @"../../../../data_datafile.csv";
             Assert.True(File.Exists(path));
         }
         [Fact]
         public static void testGDP()
         {
             Program.aggGDP();
-            string path1 = @"..\..\..\..\test_expected-output.json";
-            string path2 = @"..\..\..\..\dataOutput.json";
+            string path1 = @"../../../../test_expected-output.json";
+            string path2 = @"../../../../dataOutput.json";
 
 
             /*            JToken xpctJSON = JToken.Parse(path1);
